@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Kelas C - Materi Keilmuan"
-categories: C
-tags: c, keilmuan
+categories: "Kelas-C"
+tags: "keilmuan"
 ---

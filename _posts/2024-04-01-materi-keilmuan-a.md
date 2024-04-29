@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Kelas A - Materi Keilmuan"
-categories: A
-tags: a, keilmuan
+categories: "Kelas-A"
+tags: "keilmuan"
 ---

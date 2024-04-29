@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<!--
+
 <h2>Kurikulum KPA</h2>
 
 <ul>
@@ -10,20 +10,10 @@ layout: base
 
 <div>&nbsp;</div>
 
-<h2>Materi</h2>
+<h2>Tautan Materi</h2>
 
-<ul>
-  <li><h3><a href="materi/alquran" target="_blank">Alquran</a></h3></li>
-  <li><h3><a href="materi/akhlak" target="_blank">Akhlak</a></h3></li>
-  <li><h3><a href="materi/shalat" target="_blank">Shalat</a></h3></li>
-  <li><h3><a href="materi/nizam" target="_blank">Nizam Jemaat</a></h3></li>
-  <li><h3><a href="materi/pengorbanan" target="_blank">Pengorbanan</a></h3></li>
-  <li><h3><a href="materi/keilmuan" target="_blank">Keilmuan</a></h3></li>
-</ul>
 
--->
-
-<div class="home">
+<!-- <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -79,4 +69,26 @@ layout: base
 
   {%- endif -%}
 
-</div>
+</div> -->
+
+<ul>
+  {% for category in site.categories %}
+    <li>{{ category[0] }}</li>
+    <ul>
+      {% for post in category[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</ul>
+
+<!-- <ul>
+  {% for tag in site.tags %}
+    <li>{{ tag[0] }}</li>
+    <ul>
+      {% for post in tag[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</ul> -->

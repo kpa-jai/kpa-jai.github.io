@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Kelas B - Materi Keilmuan"
-categories: B
-tags: b, keilmuan
+categories: "Kelas-B"
+tags: "keilmuan"
 ---
