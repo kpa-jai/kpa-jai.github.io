@@ -47,4 +47,4 @@ Allah, tiada Tuhan kecuali Dia Yang Mahahidup, Yang Mahategak *atas Dzat-Nya Sen
 
 Catatan:
 
-Kursiy berarti, singgasana, kursi, dinding penunjang; ilmu; kedaulatan dan kekuasaan (Aqrab); Karāsī adalah bentuk jamaknya dan berarti orang-orang terpelajar. Ayat itu dengan indahnya menggambarkan Keesaan Tuhan serta Sifat-sifat-Nya yang agung. Konon Rasulullah Saw bersabda bahwa Āyat al-Kursiy itu adalah ayat Al-Qur’an yang paling mulia (Muslim).
+Kata "Kursiy" berarti, singgasana, kursi, dinding penunjang; ilmu; kedaulatan dan kekuasaan (Aqrab); Karāsī adalah bentuk jamaknya dan berarti orang-orang terpelajar. Ayat itu dengan indahnya menggambarkan Keesaan Tuhan serta Sifat-sifat-Nya yang agung. Konon Rasulullah (saw) bersabda bahwa Āyat al-Kursiy itu adalah ayat Al-Qur’an yang paling mulia (Muslim).
