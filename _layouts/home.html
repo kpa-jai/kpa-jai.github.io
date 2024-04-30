@@ -23,9 +23,6 @@ Catatan:
 
 <div>&nbsp;</div>
 
-<h2>Tautan Materi</h2>
-
-
 <!-- <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -83,17 +80,6 @@ Catatan:
   {%- endif -%}
 
 </div> -->
-
-<ul>
-  {% for category in site.categories %}
-    <li>{{ category[0] }}</li>
-    <ul>
-      {% for post in category[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</ul>
 
 <!-- <ul>
   {% for tag in site.tags %}
