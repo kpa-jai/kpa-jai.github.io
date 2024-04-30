@@ -1,4 +1,4 @@
-title: Materi Kursus Pendidikan Agama
+title: Kursus Pendidikan Agama 2024
 author:
   name: kpa
   email: kpa-jai@outlook.co.id
@@ -26,11 +26,11 @@ plugins:
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
-header_pages:
-  - tentang.md
+# header_pages:
+#   - tentang.md
 
 # Set to `true` to show excerpts on the homepage.
-show_excerpts: false
+show_excerpts: true
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:

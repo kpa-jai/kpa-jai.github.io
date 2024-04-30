@@ -5,10 +5,14 @@ categories: "Kelas-B"
 tags: "pengorbanan"
 ---
 
-### Pertemuan ke-1
+### A. Tujuan Pembelajaran
 
-### Pertemuan ke-2
+<!-- Tahu dan Memahami Ayat-ayat Pengorbanan dan Tafsirnya: al-Baqarah: 262-272 -->
 
-### Pertemuan ke-3
+### B. Pertemuan ke-1
 
-### Pertemuan ke-4
+### C. Pertemuan ke-2
+
+### D. Pertemuan ke-3
+
+### E. Pertemuan ke-4
