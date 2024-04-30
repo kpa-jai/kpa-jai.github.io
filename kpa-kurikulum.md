@@ -61,24 +61,28 @@ Catatan:
 
 ### Kurikulum Harian
 
+{% assign sorted_kurikulum_harian = site.data.db-kurikulum | sort: 'tanggal' %}
+
 <table>
   <thead>
     <tr>
-      <th>No.</th>
-      <th>Tgl</th>
+      <!-- <th>No.</th> -->
+      <th>Tanggal</th>
       <th>Kelas</th>
+      <th>Pertemuan ke</th>
       <th>Pelajaran</th>
       <th>Target Pembelajaran</th>
     </tr>
   </thead>
   <tbody>
-  {% for db in site.data.db-kurikulum %}
+  {% for db in sorted_kurikulum_harian %}
     <tr>
-      <td>{{ db.no }}</td>
+      <!-- <td>{{ db.no }}</td> -->
       <td>{{ db.tanggal }}</td>
       <td>{{ db.kelas }}</td>
+      <td>{{ db.pertemuan-ke }}</td>
       <td>{{ db.mata-pelajaran }}</td>
-      <td>{{ db.target-pembelajaran }}</td>
+      <td>{{ db.target-pembelajaran-harian }}</td>
     </tr>
   {% endfor %}
   </tbody>

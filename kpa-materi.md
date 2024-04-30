@@ -61,7 +61,7 @@ permalink: /kpa/materi
   </tbody>
 </table> -->
 
-{% assign sorted_kurikulum = site.data.db-kurikulum | sort: 'kelas' %}
+{% assign sorted_kurikulum = site.data.db-materi-kelas | sort: 'kelas' %}
 
 <table>
   <thead>
@@ -78,7 +78,7 @@ permalink: /kpa/materi
       <!-- <td>{{ db.no }}</td> -->
       <td>{{ db.kelas }}</td>
       <td>{{ db.mata-pelajaran }}</td>
-      <td><a href="{{ db.link-materi }}">{{ db.link-materi }}</a></td>
+      <td><a href="{{ db.link-materi }}">{{ db.link-materi-web }}</a></td>
     </tr>
   {% endfor %}  
   </tbody>
