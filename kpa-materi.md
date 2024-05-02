@@ -25,41 +25,7 @@ permalink: /kpa/materi
   </tbody>
 </table>
 
-### Daftar Materi
-
-<!-- <ul>
-  {% for category in site.categories %}
-    <li>{{ category[0] }}</li>
-    <ul>
-      {% for post in category[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</ul> -->
-
-<!-- <table>
-  <thead>
-    <tr>
-      <th>Category</th>
-      <th>Posts</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for category in site.categories %}
-      <tr>
-        <td>{{ category[0] }}</td>
-        <td>
-          <ul>
-            {% for post in category[1] %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table> -->
+### Daftar Materi Web dan Dokumen
 
 {% assign sorted_kurikulum = site.data.db-materi-kelas | sort: 'kelas' %}
 
@@ -69,7 +35,8 @@ permalink: /kpa/materi
       <!-- <th>No.</th> -->
       <th>Kelas</th>
       <th>Nama Pelajaran</th>
-      <th>Link</th>
+      <th>Link Web</th>
+      <th>Link Doc</th>
     </tr>
   </thead>
   <tbody>
@@ -78,7 +45,8 @@ permalink: /kpa/materi
       <!-- <td>{{ db.no }}</td> -->
       <td>{{ db.kelas }}</td>
       <td>{{ db.mata-pelajaran }}</td>
-      <td><a href="{{ db.link-materi }}">{{ db.link-materi-web }}</a></td>
+      <td><a href="{{ db.link-materi-web }}" target="_blank">Web</a></td>
+      <td><a href="{{ db.link-materi-dokumen }}" target="_blank">Doc</a></td>
     </tr>
   {% endfor %}  
   </tbody>
